@@ -1,0 +1,11 @@
+! free up right-Alt for remapping
+remove mod1 = Alt_R
+
+! Right-Alt remapped to Super
+clear mod3
+add mod3 = Alt_R
+
+! Set Caps L0ok to CunTr0l
+remove Lock = Caps_Lock
+keysym Caps_Lock = Control_L
+add Control = Control_L
